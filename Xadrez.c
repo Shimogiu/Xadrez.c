@@ -30,7 +30,25 @@ do {
     k++;
   }  while(k <=8);
 
+printf("\n");
+    
+     // Movimento do CAVALO - 2 casas para baixo, 1 para esquerda (FOR + WHILE)
+    printf("Movimento do Cavalo:\n");
 
+    for (int i = 1; i <= 1; i++) {  // Apenas uma repetição completa do "L"
+        int passosBaixo = 0;
 
-return 0;
+        // Duas casas para baixo
+        while (passosBaixo < 2) {
+            printf("Baixo\n");
+            passosBaixo++;
+        }
+
+        // Uma casa para a esquerda
+        printf("Esquerda\n");
+    }
+
+    return 0;
 }
+
+
